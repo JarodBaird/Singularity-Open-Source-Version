@@ -1,1 +1,1 @@
-# Singularity---Open-Source-Version
+# Singularity (Open Source Version)
