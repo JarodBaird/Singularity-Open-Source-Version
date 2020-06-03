@@ -1,0 +1,13 @@
+Copying and pasting a settings file into this directory (from /Defaults) 
+will make the game read the copied file instead of the original. 
+
+For example, copying ~/Settings/Defaults/Colors.txt into ~/Settings/Colors.txt
+will make the game read the former file and use the settings it finds as 
+defaults, then it will use any settings set in the later file as overrides.
+
+This way you can edit the settings without having to create backups every 
+time. 
+
+Or don't. The only reason the game can do this is because it makes it easier
+to test. I really don't care if you screw up your settings, you can just
+download another set of them.

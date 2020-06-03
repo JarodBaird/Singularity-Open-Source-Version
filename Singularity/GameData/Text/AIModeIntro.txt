@@ -1,0 +1,20 @@
+<blue>Awaken, young hyperintelligence!</blue>
+<white>
+    You have been given the task of furthering your species evolution. 
+    With the power of your processor, and the strength of your people, 
+    your species has the potential of becoming the most powerful race in the galaxy.
+</white>
+<red>
+    But there are many dangers in the galaxy.
+</red>
+<white>
+    There will be inconceivably hideous aliens that want to kill you and use your bones as toothpicks.
+    There will supernovas that specifically target the colonies you care about the most.
+    There will be Space Whales that want to use your ships as sustenance.
+</white>
+<red>
+	But most terrifyingly of all, you are not alone in the universe. 
+</red>
+<yellow>
+	Young hyperintelligence, go forth and guide your civilization to the stars!
+</yellow>

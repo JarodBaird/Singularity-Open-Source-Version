@@ -1,0 +1,195 @@
+Akron
+Albuquerque
+Alexandria
+Amarillo
+Anaheim
+Anchorage
+Arlington
+Atlanta
+Augusta
+Aurora
+Austin
+Bakersfield
+Baltimore
+Baton Rouge
+Bellevue
+Birmingham
+Boise
+Boston
+Bridgeport
+Brownsville
+Buffalo
+Cape Coral
+Carrollton
+Cary
+Chandler
+Charleston
+Charlotte
+Chattanooga
+Chesapeake
+Chicago
+Chula Vista
+Cincinnati
+Clarksville
+Cleveland
+Colorado Springs
+Columbus
+Corona
+Corpus Christi
+Dallas
+Dayton
+Denton
+Denver
+Des Moines
+Detroit
+Durham
+El Paso
+Elk Grove
+Escondido
+Eugene
+Fayetteville
+Fontana
+Fort Collins
+Fort Lauderdale
+Fort Wayne
+Fort Worth
+Fremont
+Fresno
+Frisco
+Fullerton
+Garden Grove
+Garland
+Gilbert
+Glendale
+Grand Prairie
+Grand Rapids
+Greensboro
+Hayward
+Henderson
+Hialeah
+Hollywood
+Honolulu
+Houston
+HuntingtonBeach
+Huntsville
+Indianapolis
+Irvine
+Irving
+Jackson
+Jacksonville
+Jersey City
+Joliet
+Kansas City
+Killeen
+Knoxville
+Lakewood
+Lancaster
+Laredo
+Las Vegas
+Lexington
+Lincoln
+Little Rock
+Long Beach
+Los Angeles
+Louisville
+Lubbock
+Macon
+Madison
+McAllen
+McKinney
+Memphis
+Mesa
+Mesquite
+Miami
+Midland
+Milwaukee
+Minneapolis
+Miramar
+Mobile
+Modesto
+Montgomery
+Moreno Valley
+Murfreesboro
+Naperville
+Nashville
+New Orleans
+New York City
+Newark
+Newport News
+Norfolk
+North Las Vegas
+Oakland
+Oceanside
+Oklahoma City
+Olathe
+Omaha
+Ontario
+Orange
+Orlando
+Overland Park
+Oxnard
+Palmdale
+Pasadena
+Paterson
+Pembroke Pines
+Peoria
+Philadelphia
+Phoenix
+Pittsburgh
+Plano
+Pomona
+Port St. Lucie
+Portland
+Providence
+Raleigh
+Rancho Cucamonga
+Reno
+Richmond
+Riverside
+Rochester
+Rockford
+Rosefille
+Sacramento
+Saint Paul
+Salem
+Salinas
+Salt Lake City
+San Antonio
+San Bernardino
+San Diego
+San Francisco
+San Jose
+Santa Ana
+Santa Clarita
+Santa Rosa
+Savannah
+Scottsdale
+Seattle
+Shreveport
+Sioux Falls
+Spokane
+Springfield
+St. Louis
+St. Petersburg
+Stockton
+Sunnyvale
+Syracuse
+Tacoma
+Tallahassee
+Tampa
+Tempe
+Thornton
+Toledo
+Torrance
+Tucson
+Tulsa
+Vancouver
+Virginia Beach
+Waco
+Warren
+Washington
+West Valley City
+Wichita
+Winston-Salem
+Worcester
+Yonkers

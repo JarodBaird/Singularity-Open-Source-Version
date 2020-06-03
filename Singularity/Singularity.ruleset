@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet NAME="Rules for Singularity" Description="Code analysis rules for Singularity.vcxproj." ToolsVersion="15.0">
+  <IncludeAll Action="Warning" />
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNAMEspace="Microsoft.Rules.Native">
+    <Rule Id="C26432" Action="None" />
+    <Rule Id="C26439" Action="None" />
+    <Rule Id="C26440" Action="None" />
+  </Rules>
+</RuleSet>

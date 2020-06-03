@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0FA37218-42C6-4C68-BE8A-D7D10DEA3AE0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SingularityData</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\OpenGL\Win32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\OpenGL\Win32\libs;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>..\Singularity.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <CodeAnalysisRuleSet>..\Singularity.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>..\Singularity.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>..\Singularity.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <IncludePath>C:\OpenGL\x64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\OpenGL\x64\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenGL\x64\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>true</EnablePREfast>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_USE_MATH_DEFINES;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenGL\x64\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>true</EnablePREfast>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenGL\x64\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>true</EnablePREfast>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_USE_MATH_DEFINES;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\OpenGL\x64\include;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>true</EnablePREfast>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Entities\Item.h" />
+    <ClInclude Include="Entities\Worker.h" />
+    <ClInclude Include="Physics\Calendar\Calendar.h" />
+    <ClInclude Include="Entities\ShipComponents\ComponentAttributes.h" />
+    <ClInclude Include="Entities\ShipComponents\ShipComponent.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Life\Figure.h" />
+    <ClInclude Include="Life\SpeciesFactory.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Physics\Chemistry\Chemical.h" />
+    <ClInclude Include="Physics\Chemistry\Compound.h" />
+    <ClInclude Include="Physics\Chemistry\Element.h" />
+    <ClInclude Include="Physics\Chemistry\Gigamole.h" />
+    <ClInclude Include="Requests\ActionType.h" />
+    <ClInclude Include="Requests\RequestTypes\MoveEntityRequest.h" />
+    <ClInclude Include="Requests\RequestTypes\AttackRequest.h" />
+    <ClInclude Include="Requests\RequestTypes\SurveyRequest.h" />
+    <ClInclude Include="Settings\TagConstants.h" />
+    <ClInclude Include="Settings\UniversalVariables.h" />
+    <ClInclude Include="Space\Bodies\Planets\PlanetFactory.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Artificial\Farm.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Artificial\Generator.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Artificial\Mine.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Artificial\Refinery.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Artificial\Structure.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Natural\Forest.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\TerrainFeature.h" />
+    <ClInclude Include="Space\SystemFactory.h" />
+    <ClInclude Include="UserInterface\Camera\Camera.h" />
+    <ClInclude Include="Civilization\Civilization.h" />
+    <ClInclude Include="UserInterface\Cursor\Cursor.h" />
+    <ClInclude Include="Entities\Entity.h" />
+    <ClInclude Include="Entities\Fleet.h" />
+    <ClInclude Include="Entities\Wave.h" />
+    <ClInclude Include="Settings\GalacticVariables.h" />
+    <ClInclude Include="Terrain\TerrainFeatures\Artificial\City.h" />
+    <ClInclude Include="Life\Attributes\PhysicalAttribute.h" />
+    <ClInclude Include="Life\Attributes\Relationship.h" />
+    <ClInclude Include="Life\Species.h" />
+    <ClInclude Include="Requests\Request.h" />
+    <ClInclude Include="Requests\RequestList.h" />
+    <ClInclude Include="Space\Bodies\CircumstellarDisks\AsteroidBelt.h" />
+    <ClInclude Include="Space\Bodies\CircumstellarDisks\ProtoplanetaryDisk.h" />
+    <ClInclude Include="Space\Bodies\MinorPlanets\Asteroid.h" />
+    <ClInclude Include="Space\Bodies\MinorPlanets\Comet.h" />
+    <ClInclude Include="Space\Bodies\Planets\GasPlanet.h" />
+    <ClInclude Include="Space\Bodies\Planets\Planet.h" />
+    <ClInclude Include="Space\Bodies\Stars\EnclosedStar.h" />
+    <ClInclude Include="Space\Bodies\Stars\EventHorizon.h" />
+    <ClInclude Include="Space\Bodies\Stars\Star.h" />
+    <ClInclude Include="Terrain\MapTypes\LargeTerrainMap.h" />
+    <ClInclude Include="Terrain\MapTypes\MediumTerrainMap.h" />
+    <ClInclude Include="Terrain\MapTypes\SmallTerrainMap.h" />
+    <ClInclude Include="Terrain\MapTypes\TinyTerrainMap.h" />
+    <ClInclude Include="Terrain\Population.h" />
+    <ClInclude Include="Terrain\TerrainMap.h" />
+    <ClInclude Include="Space\Bodies\CelestialBody.h" />
+    <ClInclude Include="Space\StarchartObject.h" />
+    <ClInclude Include="Terrain\Tile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entities\Item.cpp" />
+    <ClCompile Include="Entities\ShipComponents\ComponentAttributes.cpp" />
+    <ClCompile Include="Entities\Worker.cpp" />
+    <ClCompile Include="Physics\Calendar\Calendar.cpp" />
+    <ClCompile Include="Entities\ShipComponents\ShipComponent.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Life\Figure.cpp" />
+    <ClCompile Include="Life\SpeciesFactory.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Physics\Chemistry\Chemical.cpp" />
+    <ClCompile Include="Physics\Chemistry\Compound.cpp" />
+    <ClCompile Include="Physics\Chemistry\Element.cpp" />
+    <ClCompile Include="Physics\Chemistry\Gigamole.cpp" />
+    <ClCompile Include="Requests\RequestTypes\AttackRequest.cpp" />
+    <ClCompile Include="Requests\RequestTypes\MoveEntityRequest.cpp" />
+    <ClCompile Include="Requests\RequestTypes\SurveyRequest.cpp" />
+    <ClCompile Include="Settings\TagConstants.cpp" />
+    <ClCompile Include="Settings\UniversalVariables.cpp" />
+    <ClCompile Include="Space\Bodies\Planets\PlanetFactory.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Terrain\TerrainFeatures\Artificial\Farm.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\Artificial\Generator.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\Artificial\Mine.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\Artificial\Refinery.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\Artificial\Structure.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\Natural\Forest.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\TerrainFeature.cpp" />
+    <ClCompile Include="Space\SystemFactory.cpp" />
+    <ClCompile Include="UserInterface\Camera\Camera.cpp" />
+    <ClCompile Include="Civilization\Civilization.cpp" />
+    <ClCompile Include="UserInterface\Cursor\Cursor.cpp" />
+    <ClCompile Include="Entities\Entity.cpp" />
+    <ClCompile Include="Entities\Fleet.cpp" />
+    <ClCompile Include="Entities\Wave.cpp" />
+    <ClCompile Include="Settings\GalacticVariables.cpp" />
+    <ClCompile Include="Terrain\TerrainFeatures\Artificial\City.cpp" />
+    <ClCompile Include="Life\Attributes\PhysicalAttribute.cpp" />
+    <ClCompile Include="Life\Species.cpp" />
+    <ClCompile Include="Requests\Request.cpp" />
+    <ClCompile Include="Requests\RequestList.cpp" />
+    <ClCompile Include="Space\Bodies\CircumstellarDisks\AsteroidBelt.cpp" />
+    <ClCompile Include="Space\Bodies\CircumstellarDisks\ProtoplanetaryDisk.cpp" />
+    <ClCompile Include="Space\Bodies\MinorPlanets\Asteroid.cpp" />
+    <ClCompile Include="Space\Bodies\MinorPlanets\Comet.cpp" />
+    <ClCompile Include="Space\Bodies\Planets\GasPlanet.cpp" />
+    <ClCompile Include="Space\Bodies\Planets\Planet.cpp" />
+    <ClCompile Include="Space\Bodies\Stars\EnclosedStar.cpp" />
+    <ClCompile Include="Space\Bodies\Stars\EventHorizon.cpp" />
+    <ClCompile Include="Space\Bodies\Stars\Star.cpp" />
+    <ClCompile Include="Terrain\Population.cpp" />
+    <ClCompile Include="Terrain\TerrainMap.cpp" />
+    <ClCompile Include="Space\Bodies\CelestialBody.cpp" />
+    <ClCompile Include="Space\StarchartObject.cpp" />
+    <ClCompile Include="Terrain\Tile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Altair.Engine\Altair.Engine.vcxproj">
+      <Project>{334fc6ec-2860-4ac4-ae54-7b0fd1350205}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

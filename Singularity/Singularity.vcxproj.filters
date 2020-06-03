@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{4e429f53-a68a-4bab-a103-4453072adc1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="RCa12096" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="GameData\Settings\README" />
+    <None Include="GameData\README" />
+    <None Include="GameData\Assets\Shaders\Fragment.frag" />
+    <None Include="GameData\Assets\Shaders\Vertex.vert" />
+    <None Include="Singularity.ruleset" />
+    <None Include="GameData\Raws\Compounds\Acetone.dat" />
+    <None Include="GameData\Raws\Compounds\Adalimumab.dat" />
+    <None Include="GameData\Raws\Compounds\Alumina.dat" />
+    <None Include="GameData\Raws\Compounds\Ammonia.dat" />
+    <None Include="GameData\Raws\Compounds\APAP.dat" />
+    <None Include="GameData\Raws\Compounds\Butane.dat" />
+    <None Include="GameData\Raws\Compounds\Caffeine.dat" />
+    <None Include="GameData\Raws\Compounds\CarbonDioxide.dat" />
+    <None Include="GameData\Raws\Compounds\CBD.dat" />
+    <None Include="GameData\Raws\Compounds\Ethane.dat" />
+    <None Include="GameData\Raws\Compounds\EthylAlcohol.dat" />
+    <None Include="GameData\Raws\Compounds\HTI.dat" />
+    <None Include="GameData\Raws\Compounds\LSD.dat" />
+    <None Include="GameData\Raws\Compounds\Magnesia.dat" />
+    <None Include="GameData\Raws\Compounds\MDMA.dat" />
+    <None Include="GameData\Raws\Compounds\Methane.dat" />
+    <None Include="GameData\Raws\Compounds\MethylAlcohol.dat" />
+    <None Include="GameData\Raws\Compounds\Ozone.dat" />
+    <None Include="GameData\Raws\Compounds\Salt.dat" />
+    <None Include="GameData\Raws\Compounds\Silica.dat" />
+    <None Include="GameData\Raws\Compounds\THC.dat" />
+    <None Include="GameData\Raws\Compounds\Water.dat" />
+    <None Include="GameData\Raws\Elements\001Hydrogen.dat" />
+    <None Include="GameData\Raws\Elements\002Helium.dat" />
+    <None Include="GameData\Raws\Elements\003Lithium.dat" />
+    <None Include="GameData\Raws\Elements\004Beryllium.dat" />
+    <None Include="GameData\Raws\Elements\005Boron.dat" />
+    <None Include="GameData\Raws\Elements\006Carbon.dat" />
+    <None Include="GameData\Raws\Elements\007Nitrogen.dat" />
+    <None Include="GameData\Raws\Elements\008Oxygen.dat" />
+    <None Include="GameData\Raws\Elements\009Flourine.dat" />
+    <None Include="GameData\Raws\Elements\010Neon.dat" />
+    <None Include="GameData\Raws\Elements\011Sodium.dat" />
+    <None Include="GameData\Raws\Elements\012Magnesium.dat" />
+    <None Include="GameData\Raws\Elements\013Aluminum.dat" />
+    <None Include="GameData\Raws\Elements\014Silicon.dat" />
+    <None Include="GameData\Raws\Elements\015Phosphorus.dat" />
+    <None Include="GameData\Raws\Elements\016Sulfur.dat" />
+    <None Include="GameData\Raws\Elements\017Chlorine.dat" />
+    <None Include="GameData\Raws\Elements\018Argon.dat" />
+    <None Include="GameData\Raws\Elements\019Potassium.dat" />
+    <None Include="GameData\Raws\Elements\020Calcium.dat" />
+    <None Include="GameData\Raws\Elements\021Scandium.dat" />
+    <None Include="GameData\Raws\Elements\022Titanium.dat" />
+    <None Include="GameData\Raws\Elements\023Vanadium.dat" />
+    <None Include="GameData\Raws\Elements\024Chromium.dat" />
+    <None Include="GameData\Raws\Elements\025Manganese.dat" />
+    <None Include="GameData\Raws\Elements\026Iron.dat" />
+    <None Include="GameData\Raws\Elements\027Cobalt.dat" />
+    <None Include="GameData\Raws\Elements\028Nickel.dat" />
+    <None Include="GameData\Raws\Elements\029Copper.dat" />
+    <None Include="GameData\Raws\Elements\030Zinc.dat" />
+    <None Include="GameData\Raws\Elements\031Gallium.dat" />
+    <None Include="GameData\Raws\Elements\032Germanium.dat" />
+    <None Include="GameData\Raws\Elements\033Arsenic.dat" />
+    <None Include="GameData\Raws\Elements\034Selenium.dat" />
+    <None Include="GameData\Raws\Elements\035Bromine.dat" />
+    <None Include="GameData\Raws\Elements\036Krypton.dat" />
+    <None Include="GameData\Raws\Elements\047Silver.dat" />
+    <None Include="GameData\Raws\Elements\050Tin.dat" />
+    <None Include="GameData\Raws\Elements\053Iodine.dat" />
+    <None Include="GameData\Raws\Elements\054Xenon.dat" />
+    <None Include="GameData\Raws\Elements\078Platinum.dat" />
+    <None Include="GameData\Raws\Elements\079Gold.dat" />
+    <None Include="GameData\Raws\Elements\080Mercury.dat" />
+    <None Include="GameData\Raws\Elements\082Lead.dat" />
+    <None Include="GameData\Raws\Elements\092Uranium.dat" />
+    <None Include="GameData\Raws\Elements\094Plutonium.dat" />
+    <None Include="GameData\Raws\Elements\121Hyperbium.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\CargoBay.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\CrewBay.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\GatewayKey.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\Generator.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\Hull.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\ShieldGenerator.dat" />
+    <None Include="GameData\Raws\ShipParts\StartingParts\SubluminalDrive.dat" />
+    <None Include="GameData\Raws\Physics.cfg" />
+    <None Include="GameData\Raws\WordPatterns.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\spritesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GameData\Assets\Textures\Sprites.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="States\GameStates\Comms\CommsScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Music\Wizardtorium.mp3" />
+    <Media Include="GameData\Assets\Music\Wizardtorium.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GameFiles\Settings\Init.txt" />
+    <Text Include="GameFiles\Settings\Colors.txt" />
+    <Text Include="GameFiles\Settings\Defaults\Colors.txt" />
+    <Text Include="GameFiles\Settings\Defaults\Init.txt" />
+    <Text Include="GameData\Text\AIModeIntro.txt" />
+    <Text Include="GameData\Raws\WordSets\AmericanCity.txt" />
+    <Text Include="GameData\Raws\WordSets\AmericanFemaleName.txt" />
+    <Text Include="GameData\Raws\WordSets\AmericanLastName.txt" />
+    <Text Include="GameData\Raws\WordSets\AmericanMaleName.txt" />
+    <Text Include="GameData\Raws\WordSets\AmericanState.txt" />
+    <Text Include="GameData\Raws\WordSets\Animal.txt" />
+    <Text Include="GameData\Raws\WordSets\CatBreed.txt" />
+    <Text Include="GameData\Raws\WordSets\Constellation.txt" />
+    <Text Include="GameData\Raws\WordSets\Genus.txt" />
+    <Text Include="GameData\Raws\WordSets\GreekGod.txt" />
+    <Text Include="GameData\Raws\WordSets\GreekLetter.txt" />
+    <Text Include="GameData\Raws\WordSets\RomanGod.txt" />
+    <Text Include="GameData\Raws\WordSets\Species.txt" />
+    <Text Include="GameData\Raws\WordSets\Star.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Singularity.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

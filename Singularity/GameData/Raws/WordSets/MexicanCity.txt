@@ -1,0 +1,50 @@
+Ciudad de Mexico
+Ecatepec
+Guadalajara
+Puebla
+Juarez
+Tijuana
+Leon
+Zapopan
+Monterrey
+Nezahualcoyotl
+Culiacan
+Chihuahua
+Naucalpan
+Merida
+San Luis Potosi
+Aquascalientes
+Hermosillo
+Saltillo
+Mexicali
+Guadalupe
+Acapulco
+Tlalnepantla
+Cancun
+Queretaro
+Chimalhuacan
+Torreon
+Morelia
+Reynosa
+Tlaquepaque
+Tuxtla Gutierrez
+Durango
+Toluca
+Ciudad Lopez Mateos
+Cuautitlan Izcalli
+Ciudad Apodaca
+Matamoros
+San Nicolas de los Garza
+Veracruz
+Xalapa
+Tonala
+Mazatlan
+Irapuato
+Nuevo Laredo
+Xico
+Villahermosa
+General Escobedo
+Celaya
+Cuernavaca
+Tepic
+Ixtapaluca
